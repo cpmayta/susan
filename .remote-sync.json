@@ -1,0 +1,16 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "192.168.0.40",
+  "port": "21",
+  "target": "/var/www/html",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "cesar",
+  "password": "redhat",
+  "watch": []
+}
